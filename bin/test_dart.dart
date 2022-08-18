@@ -1,7 +1,10 @@
 void main() {
   // binary search
-  List<int> list = [2, 4, 6, 8, 9, 10, 18];
+  List<int> list = [2, 4, 6, 8, 9, 10, 18, 20, 40, 42];
   print(binarySearch(list, 6));
+
+  print(binarySearch(list, 40));
+  print(binarySearch(list, 20));
 }
 
 String binarySearch(List<int> list, x) {
